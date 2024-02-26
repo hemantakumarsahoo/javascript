@@ -111,4 +111,6 @@ console.log(+"");//0
  
 
 
-
+let name="hemanta";
+let fname=name
+console.log(fname)
