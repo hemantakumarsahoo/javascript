@@ -86,3 +86,58 @@ const emptyObj={}
    //condition?true:false
    const iceTea=100
    iceTea<=80? console.log("lessthan80"):console.log("morethan 80")
+    
+   
+   // for loop
+
+//    for (let i = 0; i < 10; i++) {
+//     if(i==5){
+//         console.log("5 is best")
+//     }
+//     console.log(i)
+      
+//    }
+for (let i = 1; i <=10; i++) {
+    //console.log(`outer loop ${i}`)
+    for (let j = 1; j < 10; j++) {
+        //console.log(`innerr loop value ${j} and inner loop  ${i}`)
+        //console.log(`${i}*${j}=${i*j}`)
+        
+        
+    }
+    // console.log(i)
+    
+}
+
+
+let myarray=["apple","banana","grapes"]
+console.log(myarray.length);
+for (let index=0; index < myarray.length; index++){
+    const element=myarray[index];
+    console.log(element);
+}
+
+let MyArray=["watermelon","apple","banana","grapes"]
+for (let index = 0; index < MyArray.length; index++) {
+    const element = MyArray[index];
+    console.log(element);
+    
+}
+//----------keywords-------------
+//break and continue
+for (let index = 1; index < 20; index++) {
+    if(index==5){
+        console.log("detected 5")
+        break
+    }
+     console.log(`value of ${index}`)
+    
+}
+for (let index = 1; index < 20; index++) {
+    if(index==5){
+        console.log("detected 5")
+        continue// 5 is not print  loops se bahar nehi ayoge
+    }
+     console.log(`value of ${index}`)
+    
+}
