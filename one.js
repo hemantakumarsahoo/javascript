@@ -138,6 +138,33 @@ for (let index = 1; index < 20; index++) {
         console.log("detected 5")
         continue// 5 is not print  loops se bahar nehi ayoge
     }
-     console.log(`value of ${index}`)
+     //console.log(`value of ${index}`)
     
 }
+//while loop
+let index=0
+while(index <= 10){
+    console.log(index);
+    index=index+2
+}
+let myArray=["watermelon","apple","banana","grapes"]
+let arr=0
+while (arr<myArray.length) {
+    console.log(`value is ${myArray[arr]}`);
+    arr=arr+1
+    
+}
+
+//dowhile loop
+let score=1
+do {
+    console.log(`score  is ${score}`);
+    score++
+} while (score<10);
+let score1=11// the condition is false but one time it will run
+do {
+    console.log(`score  is ${score1}`);
+    score1++
+} while (score1<10);
+
+//for of loop
