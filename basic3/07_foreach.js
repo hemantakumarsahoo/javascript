@@ -55,12 +55,36 @@ myCoding.forEach((element) => {
 // const newNum=myNum.filter((num)=>num>4)
 // console.log(newNum)
 const myNum=[1,2,3,4,5,6,7,8,9,10]
-const newNum=myNum.filter((num)=>{
-    return num>4
-}//if i open the scope  use return key word
-)
-console.log(newNum)
+// const newNum=myNum.filter((num)=>{
+//     return num>4
+// }//if i open the scope  use return key word
+// )
+// console.log(newNum)
+
+// const myNums=[1,2,3,4,5,6,7,8,9,10]
+// const newNums=[]
+
+// myNums.forEach((num)=>{
+//     if(num>4){
+//         newNums.push(num)
+//     }
+
+// })
+// console.log(newNums);
 
 
-cont newNum=[]
-myN
+//map
+// const MyNumbers=[1,2,3,4,5,6,7,8,9,10]
+// const newNums=MyNumbers.map((num)=>num+10)
+// console.log(newNums)
+//if i need to add scope then return keyword we need to add
+const MyNumbers=[1,2,3,4,5,6,7,8,9,10]
+//const newNums=MyNumbers.map((num)=> { return num+10})
+
+const newNums=MyNumbers
+                        .map((num)=>num*10)
+                        .map((num)=>num+1)
+                        .filter((num)=>num>=40)
+console.log(newNums);
+
+//reduce method
