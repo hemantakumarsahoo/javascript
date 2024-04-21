@@ -1,2 +1,4 @@
 # javascript
-javascript practice code
+javascript practice code  
+source-youtube channel (Chai aur Code)
+mentor-Hitesh Chouddhary
